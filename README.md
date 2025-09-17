@@ -20,7 +20,7 @@ sudo reboot
 
 ### **3. 리포지토리 복사 후, 폴더로 들어간다.**
 ```
-git clone https://github.com/beakdongH/check-JetsonOrin-Temperature && cd temper
+git clone https://github.com/beakdongH/check-JetsonOrin-Temperature && cd check-JetsonOrin-Temperature/temper
 ```
 
 ### **4. 온도 측정을 시작한다.**
