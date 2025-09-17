@@ -18,17 +18,21 @@ sudo -H pip install -U jetson-stats
 sudo reboot
 ```
 
-### **3. 리포지토리 복사 후, 폴더로 들어간다.**
+### **3. 리포지토리를 터미널에서 복사해준다.**
 ```
-git clone https://github.com/beakdongH/check-JetsonOrin-Temperature && cd check-JetsonOrin-Temperature/temper
+git clone https://github.com/beakdongH/check-JetsonOrin-Temperature 
 ```
 
-### **4. 온도 측정을 시작한다.**
+### **4. 파일이 있는 폴더로 들어가준다.**
+```
+cd check-JetsonOrin-Temperature/temper
+```
+### **5. 온도 측정을 시작한다.**
 ```
 python3 npuTemp.py
 ```
 
-### **5. 온도 측정을 완료했다면, ESC 또는 Ctrl+C를 눌러 종료시킨 후, 그래프(plot)을 그린다.**
+### **6. 온도 측정을 완료했다면, ESC 또는 Ctrl+C를 눌러 종료시킨 후, 그래프(plot)을 그린다.**
 ```
 (ESC / Ctrl+C)
 python3 pltnpuTemp.py
